@@ -1,11 +1,19 @@
 <div [@routerTransition]>
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link active" routerLink="/college">After 12th Exams</a>
-    
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">After UG Program</a>
- </li>
-</ul>
-<
+	<div id="myDIV" ><p>Search Exams!</p>
+   	<input class="form-control mr-sm-3" type="text" placeholder="Search Exams.." style="margin-left: 500px">
+</div>
+
+<div class="container-fluid mycon" style="background: url('../assets/exams/bg4.jpg')">
+
+<div id="card">	
+<a routerLink="/exam-12" class="fill-div"> 
+	<img src="../assets/exams/12.jpg">
+	<h4>After 12th</h4></a></div>
+
+<div id="card">
+	<a routerLink="/exam-ug" class="fill-div">
+	<img src="../assets/exams/ug.jpg">
+	<h4>After UG</h4></a></div>
+</div>
+
+</div>

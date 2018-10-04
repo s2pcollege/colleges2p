@@ -3,6 +3,7 @@ import { RouterTestingModule } from '@angular/router/testing'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { CollegeInfoComponent } from './college-info.component';
 import { CollegeInfoModule } from './college-info.module';
+
 describe('CollegeInfoComponent', () => {
   let component: CollegeInfoComponent;
   let fixture: ComponentFixture<CollegeInfoComponent>;
